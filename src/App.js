@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
@@ -54,7 +53,7 @@ function App() {
           </select>
         </div>
         <div>
-          <label>Time (hours)</label>
+          <label>Time</label>
           <select name="time" value={time} onChange={e => setTime(e.target.value)}>
             <option value="1">1</option>
             <option value="2">2</option>

@@ -37,3 +37,21 @@
   }
 }
 
+
+div, button {
+  margin-left: 10px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input, select {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+
