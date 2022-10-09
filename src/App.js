@@ -27,7 +27,7 @@ function App() {
     }
 
     if (result < 0) {
-      result = 0;
+      result = 0; // setResult(0) tää olis varmaan ollut se tilamuuttujaversio eli siitä tuli miinusta
     }
     
     setLevel(result);
